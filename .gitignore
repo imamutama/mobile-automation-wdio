@@ -1,0 +1,13 @@
+.DS_Store
+/.idea
+/node_modules/
+/allure-results/
+/allure-report/
+
+/.tmp/
+/.tsbuild/
+appium.log
+/apk
+/package-lock.json
+/.git
+

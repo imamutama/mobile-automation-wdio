@@ -1,0 +1,12 @@
+{
+    "platformName": "Android",
+    "maxInstances": 1,
+    "appium:deviceName": "Pixel_4_Android_12",
+    "appium:platformVersion": "13.0",
+    "appium:udid": "9T9PMZEYO7MR9DJB",
+    "appium:automationName": "UiAutomator2",
+    "appium:app": "./apk/app-klik.apk",
+    "appium:newCommandTimeout": 240,
+    "appium:noReset": false,
+    "appium:autoGrantPermissions": true
+}
