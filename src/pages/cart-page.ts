@@ -8,4 +8,9 @@ export const cartPage: { [key: string]: any } = {
 		'//androidx.recyclerview.widget.RecyclerView[@resource-id="edts.klik.android:id/recyclerVew"]/android.view.ViewGroup[1]',
 	btnCloseAddress:
 		'//android.widget.FrameLayout[@resource-id="edts.klik.android:id/ivCancel"]/android.widget.ImageView',
+	btnDetailTotal: 'id=edts.klik.android:id/tvTotal',
+	subGross: 'id=edts.klik.android:id/tvGross',
+	shippingFee: 'id=edts.klik.android:id/tvDeliveryFee',
+	totalFee: 'id=edts.klik.android:id/tvPay',
+	btnCloseDetailTotal: 'id=edts.klik.android:id/ivCancel',
 };

@@ -1,6 +1,7 @@
 {
     "cucumberautocomplete.steps": [
         "./src/**/**/*.ts",
+        "./src/**/*.ts",
     ],
     "cucumberautocomplete.strictGherkinCompletion": true,
     "typescript.suggest.completeFunctionCalls": true,

@@ -30,12 +30,15 @@ Feature: Order
               And I click on the native element "regular"
               And I click on the native element "btnSubmit"
               And I click on the native element "btnCloseAddress"
+              And I click on the native element "btnDetailTotal"
+             Then verify sub total and shipping fee with the total price
+              And I click on the native element "btnCloseDetailTotal"
               And I click on the native element "btnSubmit"
               And I waiting loading for "10" seconds
              When user is on "payment" page
               And I click on the text element "BCA Virtual Account"
               And I click on the native element "btnPayment"
-             Then I verify text value "Pembayaran" is passed on applicatiion
+             Then I verify text value "Pembayaran" on page
 
 
 

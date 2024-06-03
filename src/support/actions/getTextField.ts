@@ -1,9 +1,10 @@
 import data from '../../helpers/data';
 import { pages } from '../../pages/pages';
+import waitForDisplayed from '../checks/waitForDisplayed';
 
 /**
  * Perform an click action on the given element
- * @param  {String}   selector Element selector
+ * @param  {any}  selector Element selector
  */
 export default async (selector: any) => {
 	/**
@@ -11,6 +12,8 @@ export default async (selector: any) => {
 	 * @type {Object}
 	 */
 	const page = pages[data.currentPage];
-	var text = (await $(selector)).getText();
+
+	await waitForDisplayed('native', page[selector], 3);
+	var text = await $(page[selector]).getText();
 	return text;
 };

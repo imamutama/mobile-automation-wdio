@@ -2,7 +2,7 @@ import { When } from '@wdio/cucumber-framework';
 import clickElements from '../../support/actions/clickElements';
 import setInputField from '../../support/actions/setInputField';
 import data from '../../helpers/data';
-import { login } from '../../support/step/login-step';
+import { login } from '../../support/step/login';
 import { pages } from '../../pages/pages';
 import pause from '../../support/actions/pause';
 

@@ -1,8 +1,17 @@
 class Data {
 	public _page!: string;
-	public _priceTotalCart!: string;
+	public _priceTotalCart!: number;
+	public _subTotalCart!: number;
 
-	public set totalPriceCart(priceTotalCart: string) {
+	public set cartSubTotal(subTotalCart: number) {
+		this._subTotalCart = subTotalCart;
+	}
+
+	public get cartSubTotal() {
+		return this._subTotalCart;
+	}
+
+	public set totalPriceCart(priceTotalCart: number) {
 		this._priceTotalCart = priceTotalCart;
 	}
 
